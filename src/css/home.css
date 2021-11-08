@@ -1,0 +1,171 @@
+/* ====================== Header ====================== */
+.header {
+    background-color: var(--headerColor);
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: linear-gradient(90deg, #256C7A, #0090AD, #00AAC9, #0090AD, #256C7A); */
+    /* background-size: 200% 200%; */
+    position: relative;
+    /* animation: change 10s ease-in-out infinite; */
+}
+
+.logo a{
+    color: white;
+    font: normal bold 2.5rem var(--fontPattern);
+}
+
+.search input {
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 10px;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search button{
+    border: none;
+    background-color: var(--colorButton);
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* @keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+
+    }
+    100% {
+        background-position: 0 50%;
+
+    }
+} */
+
+/* ====================== /Header ====================== */
+
+/* ====================== Nav ====================== */
+
+nav {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.261);
+    
+}
+
+.menu {
+    display: flex;
+    background-color: var(--navFooterColor); 
+    justify-content: space-between;
+    width: 100%;
+    height: 70px; 
+}
+
+.list-style {
+   display: flex;
+   align-items: center;
+}
+
+.list-style a{
+    color: var(--colorFontAlt);
+    font: normal normal 1.3rem var(--fontPattern);
+    margin: 0 20px 0 0;
+    transition-duration: .4s;
+}
+
+.list-style a:hover {
+    color: white;
+}
+
+.list-style.menu-item a:hover {
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+}
+
+/* ======================/Nav ====================== */
+
+/* ====================== Main ====================== */
+
+section.container {
+    height: 80vh;
+    margin: 50px;
+}
+
+/* ====================== /Main ====================== */
+
+/* ====================== Footer ====================== */
+
+footer {
+    width: 100%;
+    height: 250px;
+    background-color: #0d0d0e;
+    color: white;
+    position:relative;
+    bottom:0;
+}
+
+.footer {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer h2 {
+    font: normal bold 2rem var(--fontPattern);
+    margin: 5px 0;
+}
+
+.footer p {
+    font: normal normal 1.2rem var(--fontPattern);
+    margin: 5px 0;
+}
+
+.footer form {
+    margin: 5px 0;
+}
+
+.footer input {
+    height: 40px;
+    width: 300px;
+    background-color:#0d0d0e;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--colorFontAlt);
+    padding: 10px;
+    outline: none;
+    transition: .4s;
+}
+
+.footer input:focus {
+    background-color: white;
+    color: #0d0d0e;
+}
+
+.footer button {
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: #0d0d0e;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.footer button:hover {
+    background-color: #0d0d0e;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* ====================== /Footer ====================== */
